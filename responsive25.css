@@ -1,0 +1,146 @@
+.h-menu span{
+    display: none;
+}
+
+@media all and (max-width: 1180px) {
+    
+    .h-section {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .mid-content {
+        max-width: 100%;
+        width: 100%;
+        margin: auto;
+    }
+    .p-menu ul li a {
+        padding: 0 10px;
+        font-size: 15px;
+    }
+    .h-logo img {
+        height: 50px;
+        margin-right: 7px;
+    }
+    .h-logo span {
+        margin-top: 14px;
+        font-size: 20px;
+    }
+    .p-menu ul li a {
+        padding: 0 8px;
+        font-size: 15px;
+    }
+    .h-btn {
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width: 992px) {
+    .banner-section {
+        padding: 150px 0;
+    }
+    .banner-content h2 {
+        font-size: 50px;
+        margin: 20px 0;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .h-logo {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .left {
+        float: inherit;
+    }
+    .h-logo img {
+        height: 60px;
+        float: inherit;
+    }
+    .h-logo span {
+        font-size: 25px;
+        position: relative;
+        top: -20px;
+    }
+    .h-menu {
+        width: 100%;
+    }
+    .h-button {
+        width: 150px;
+        position: absolute;
+        right: 20px;
+        bottom: 15px;
+    }
+    .h-menu span{
+        display: block;
+            font-size: 30px;
+            color: #6278df;
+        }
+        .p-menu ul {
+            opacity: 0;
+            visibility: hidden;
+            height: 0;
+        }
+        .h-button {
+            bottom: 10px;
+            right: 15px;
+        }
+
+        .banner-section {
+            padding: 100px 0;
+            margin-top: 0;
+        }
+        .banner-content h3 {
+            font-size: 22px;
+        }
+        .banner-content h2 {
+            font-size: 40px;
+            margin: 15px 0;
+        }
+        .default-btn {
+            padding: 12px 18px;
+            font-size: 18px;
+
+        }
+        .h-section {
+            position: relative;
+        }
+
+    
+}
+@media all and (max-width: 576px) {
+    .banner-content h3 {
+        font-size: 18px;
+    }
+    .banner-content h3 {
+        font-size: 18px;
+    }
+    .default-btn {
+        padding: 12px 6px;
+        font-size: 16px;
+        width: 30%;
+        margin: 10px 25%;
+    }
+}
+
+@media all and (max-width: 470px) {
+    .mid-content {
+        max-width: 100%;
+        width: 100%;
+    }
+    .default-btn {
+        font-size: 14px;
+        width: 38%;
+    }
+    
+}
+
+
+
+@media all and (max-width: 576px) {}
+
+@media all and (max-width: px) {}
